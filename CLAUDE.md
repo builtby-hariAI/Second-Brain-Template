@@ -7,7 +7,8 @@ This is a personal second brain kept as an Obsidian vault. It follows the LLM-wi
 CLAUDE.md     this file (the schema)
 index.md      catalog of every wiki page with a one-line summary. READ FIRST.
 log.md        append-only history of ingest / query / lint / restructure
-raw/          immutable sources (PDF, docx, images, csv, code). Same sub-paths as wiki/.
+raw/          immutable sources (PDF, docx, images, csv, code). Same sub-paths as wiki/. raw/private/ is git-ignored.
+docs/         setup guide, where to get exports, prompts, FAQ (for humans)
 wiki/         every markdown note, maintained by Claude
 scripts/      make_index.py, make_folder_indexes.py, make_canvases.py
 graphify-out/ searchable knowledge graph of the vault (rebuilt, not edited)
@@ -58,6 +59,11 @@ After the frontmatter: an H1, a nav line (`Back to [[Hub]] · Month: [[YYYY-MM M
 3. Update every affected entity and concept page (a single source often touches 5-15 pages). Create a missing page only after the name check.
 4. Rebuild the catalog: `python3 scripts/make_index.py`, then `python3 scripts/make_folder_indexes.py`.
 5. Append to `log.md`.
+
+**Big exports** (ChatGPT, LinkedIn, Takeout, Spotify, see `docs/EXPORTS.md`): look at the export's structure first and show the owner a plan (which notes, roughly how many, what gets skipped) before writing anything. Then work in batches. File only what is worth keeping: chats that taught something or recorded a decision, not every message. Exports in `raw/private/` and `.zip` files are git-ignored on purpose; never move them out to get them committed.
+
+### BRAIN QUESTIONS
+`wiki/Brain Questions.md` holds questions for the owner, answered after `A::`. When the owner says "I answered" or runs `/answered`, follow `.claude/commands/answered.md`. When an ingest leaves a gap you can't fill from sources, add a question there instead of guessing.
 
 ### QUERY (answering a question)
 1. Read `index.md` first.

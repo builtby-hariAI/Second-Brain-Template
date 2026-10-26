@@ -1,58 +1,77 @@
 # Second Brain Template
 
-A ready-to-copy **second brain**: an [Obsidian](https://obsidian.md) vault that an AI assistant (Claude Code) reads, writes and keeps tidy for you. You drop in sources (PDFs, chats, links, spreadsheets), the AI turns them into linked notes, and later you ask questions and get answers that cite your own notes.
+**A notes vault that an AI keeps organised for you.** Drop in your stuff (PDFs, old chats, your resume, app exports), and the AI turns it into linked notes. Later, ask questions like *"what did I decide about my car loan?"* and get answers that point back to your own notes.
+
+Built on [Obsidian](https://obsidian.md) (free notes app) and [Claude Code](https://code.claude.com/docs/en/quickstart) (AI assistant). **No coding needed.** If you've never set anything like this up, it makes a great first project.
 
 Built by **Hari** ([builtby-hari](https://github.com/builtby-hari)). Copy it, make it yours.
 
-> Everything in `wiki/` is **invented sample content** about a fictional person, "Alex Rivera". Delete it and replace it with your own life.
+> Everything in `wiki/` is **made-up sample content** about a fictional person, "Alex Rivera", so you can see what a filled-in vault looks like. You'll replace it with your own.
 
-## What you get
+---
 
-| Piece | What it does |
+## Start here
+
+| If you want to... | Go to |
 |---|---|
-| `CLAUDE.md` | The rulebook: folder layout, naming, frontmatter and the INGEST / QUERY / LINT workflows the AI follows |
-| `raw/` | Your original sources. Never edited, only read |
-| `wiki/` | Notes the AI writes and maintains, sorted into numbered folders |
-| `index.md` + `log.md` | A catalog of every note with a one-line summary, and an append-only history of changes |
-| `scripts/` | Small Python scripts that rebuild the index, the folder indexes and the Brain Map canvas |
-| `.obsidian/` | The look: dark glowing graph, blue folder colors, graph color groups |
-| `wiki/Diagrams.md`, `wiki/Brain Map.canvas` | Mermaid diagrams and a canvas that show how everything connects |
-| `wiki/Dashboard.base` | An Obsidian Bases dashboard: recently changed notes, projects, people, thin notes |
+| Set it up from zero (never used a terminal) | **[Getting Started](docs/GETTING-STARTED.md)**, about 30 minutes |
+| Know where to download your data from apps (ChatGPT, LinkedIn, Google, Spotify, notes apps, bank...) | **[Where to Get Your Data](docs/EXPORTS.md)** |
+| Copy-paste prompts for every task | **[Prompts to Copy](docs/PROMPTS.md)** |
+| Fix a problem or get a question answered | **[FAQ and Troubleshooting](docs/FAQ.md)** |
+| Just steal ideas for your own vault | [What's inside](#whats-inside) and [Ideas worth copying](#ideas-worth-copying) below |
+
+## Quick start (if you've done this before)
+
+1. Click **Use this template** (choose **Private**), or **Code > Download ZIP**.
+2. Open the folder in Obsidian (**Open folder as vault**). Enable the `brain-colors` and `brain-glow` CSS snippets under **Settings > Appearance**.
+3. Install Claude Code, then `cd` into the folder and run `claude`.
+4. Say: *"Replace the Alex Rivera sample content with a blank profile for me."*
+5. Drop a file into `raw/` and say: *"Ingest raw/<file> following CLAUDE.md."*
+
+## What it costs
+
+| Piece | Cost |
+|---|---|
+| This template, Obsidian, Python, GitHub | Free |
+| Claude Code | Needs a paid Claude plan or API credits ([pricing](https://claude.com/pricing)) |
+| Optional: [Obsidian Sync](https://obsidian.md/sync) to see notes on your phone | Paid, or use iCloud / Drive for free |
+
+---
 
 ## How it works
 
 ```mermaid
 flowchart LR
-    S[New source] --> R[raw/]
-    R -->|ingest| W[wiki/ notes]
-    W --> I[index.md]
-    W --> L[log.md]
-    Q[Your question] -->|query| I --> A[Answer with citations]
+    S[Your stuff: PDFs, exports, chats] --> R[raw/ originals, never changed]
+    R -->|ingest| W[wiki/ notes the AI writes]
+    W --> I[index.md catalog]
+    W --> L[log.md history]
+    Q[Your question] -->|query| I --> A[Answer with links to your notes]
     A -.->|worth keeping| W
 ```
 
-1. **Ingest:** a source goes into `raw/`, the AI writes a summary note, updates every person, organization and idea page it touches, rebuilds the index and logs it.
-2. **Query:** the AI reads `index.md`, searches the knowledge graph, reads the cited notes and answers with `[[links]]`. Anything it can't find is marked UNKNOWN instead of guessed.
-3. **Lint:** now and then the AI checks for contradictions, stale claims, orphan notes and broken links.
+1. **Ingest:** a source goes into `raw/`. Claude writes a summary note, updates every person, place, project and idea it mentions, rebuilds the index and logs what changed.
+2. **Query:** Claude reads `index.md`, finds the right notes and answers with `[[links]]`. Anything it can't find is marked **UNKNOWN** instead of guessed.
+3. **Lint:** now and then Claude checks for contradictions, stale facts, orphan notes and broken links, and fixes what's safe.
+4. **Brain Questions:** Claude keeps a list of things it wants to know about you. Answer a few in `wiki/Brain Questions.md`, run `/answered`, and it fills in the vault.
 
-## Set it up (about 20 minutes)
+## What's inside
 
-1. **Install Obsidian** (free) from [obsidian.md](https://obsidian.md).
-2. **Get the template.** Click **Use this template** on GitHub, or run:
-   ```
-   git clone https://github.com/builtby-hariAI/second-brain-template.git "My Second Brain"
-   ```
-3. **Open it in Obsidian:** *Open folder as vault* and pick the folder.
-4. **Turn on the look:** *Settings > Appearance > CSS snippets* and enable `brain-colors` and `brain-glow`.
-5. **Install Claude Code** ([docs](https://docs.claude.com/en/docs/claude-code)) and start it inside the vault folder: `cd "My Second Brain" && claude`.
-6. **Optional, for search:** install graphify and run `/graphify` once so the AI can query the vault as a graph.
-7. **Make it yours:**
-   - Edit the "Standing facts" section at the bottom of `CLAUDE.md` with your own rules.
-   - Delete the sample notes, then add your own profile.
-   - Update `ZONES` in `scripts/make_canvases.py` to point at your notes, then run `python3 scripts/make_canvases.py`.
-8. **First ingest.** Drop a PDF into `raw/`, then tell Claude: *"Ingest raw/<file> following CLAUDE.md."*
+| Piece | What it does |
+|---|---|
+| `CLAUDE.md` | **The rulebook.** Folder layout, naming rules, note format and the ingest / query / lint workflows. Claude reads it every session |
+| `raw/` | Your original files. Read-only, so you can always check a note against its source. `raw/private/` is never backed up to GitHub |
+| `wiki/` | The notes, in numbered folders: Inbox, Timeline, Me, Knowledge, Projects, Journals & Trackers, Library, Chats, Archive, plus `entities/` and `concepts/` |
+| `index.md` + `log.md` | A one-line summary of every note, and a history of every change |
+| `wiki/Home.md` | The front door: links to everything important |
+| `wiki/Brain Questions.md` + `.claude/commands/answered.md` | The question-and-answer loop that fills a new vault fast |
+| `wiki/Dashboard.base` | Obsidian Bases tables: recently changed, projects, people, trackers, thin notes |
+| `wiki/Diagrams.md`, `wiki/Brain Map.canvas` | Mermaid diagrams and a canvas map of the whole vault |
+| `scripts/` | Three small Python scripts (no installs needed) that rebuild the index, folder indexes and Brain Map |
+| `.obsidian/` | The look: dark glowing graph, blue folder colours, graph colour groups |
+| `docs/` | The beginner guides linked above |
 
-Rebuild the catalog any time:
+Rebuild the generated files any time (or just ask Claude to):
 
 ```
 python3 scripts/make_index.py
@@ -60,17 +79,30 @@ python3 scripts/make_folder_indexes.py
 python3 scripts/make_canvases.py
 ```
 
-## Ground rules that make it work
+## Ideas worth copying
 
-- **`raw/` is read-only.** Sources stay untouched so you can always check a note against its origin.
-- **Every note name is unique.** Obsidian links by name, so the AI checks before creating a page.
-- **Every note starts the same way:** frontmatter with a one-line `summary`, an H1, a nav line, then a short summary. That's what lets `index.md` stay useful.
-- **Say UNKNOWN, don't guess.** When two sources disagree, the note records both.
-- **Keep private data out of anything you share.** Contact details, resumes, account numbers and health data belong in your private copy only.
+Even if you don't use the whole template, these ideas work in any notes setup:
+
+- **Keep originals separate from notes.** `raw/` never changes; `wiki/` is the AI's interpretation. When a note looks wrong, you can check the source.
+- **Give the AI a rulebook file.** One `CLAUDE.md` with your folder rules and workflows makes every session behave the same.
+- **One-line summary on every note.** It's what makes `index.md` useful, and it lets the AI find things without reading every file.
+- **Say UNKNOWN, don't guess.** When sources disagree, the note records both.
+- **Let the AI ask *you* questions.** A running question list fills gaps much faster than writing a profile from scratch.
+- **Plan before big imports.** Ask for a plan, check it, then let it run in batches.
+- **Standing facts.** A short list in `CLAUDE.md` of things the AI must never mix up (two people with the same name, a rule you've decided on).
+- **Log everything.** `log.md` means you can always see what changed and when.
+
+## Privacy
+
+- **Make your copy Private.** A second brain holds messages, contacts, money and health info. A public GitHub repo is visible to everyone.
+- **Big and sensitive exports go in `raw/private/`**, which `.gitignore` keeps off GitHub, along with `.zip` files.
+- **What Claude reads is sent to Anthropic** to answer you, like any Claude chat. Nothing is published unless you push it somewhere public.
 
 ## Make it yours
 
-The `02 Me` to `07 Chats` folders are a starting point. Rename or add folders to fit your life, then update the table in `CLAUDE.md` and the `BLURBS` in `scripts/make_folder_indexes.py` so the AI and the scripts agree.
+The folders are a starting point. Rename or add folders to fit your life, then update the table in `CLAUDE.md`, `BLURBS` in `scripts/make_folder_indexes.py` and `ZONES` in `scripts/make_canvases.py` so the AI and the scripts agree. Or ask Claude to do it ([prompt here](docs/PROMPTS.md#making-it-yours)).
+
+Using a different AI tool? Copy `CLAUDE.md` to `AGENTS.md`; most coding assistants read one or the other.
 
 ## License
 

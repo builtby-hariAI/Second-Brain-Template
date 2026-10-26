@@ -5,3 +5,8 @@ graphify-out/
 .venv/
 __pycache__/
 *.vcf
+
+# Big or private exports stay off GitHub (see docs/EXPORTS.md)
+*.zip
+raw/private/
+.env

@@ -12,6 +12,7 @@ Start here. (Sample content for the fictional "Alex Rivera"; replace it with you
 > The front door of the vault. It points to the profile, the hubs, projects and trackers, and to the diagrams that explain how it all works.
 
 ## Start
+- [[Brain Questions]]: answer a few, then run `/answered` to fill the vault
 - [[Alex Rivera - Profile]]: who I am on one screen
 - [[Life Timeline]] and the current month, [[2026-10 October]]
 - [[Finance Hub]]: an example knowledge hub
