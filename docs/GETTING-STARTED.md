@@ -49,7 +49,7 @@ You only need three things:
 
 Pick **one** of these:
 
-**A. Easiest, no GitHub account:** on the [repo page](https://github.com/builtby-hariAI/second-brain-template), click the green **Code** button, then **Download ZIP**. Unzip it, rename the folder to `My Second Brain`, and move it somewhere you'll keep it, like `Documents`.
+**A. Easiest, no GitHub account:** on the [repo page](https://github.com/builtby-hariAI/Second-Brain-Template), click the green **Code** button, then **Download ZIP**. Unzip it, rename the folder to `My Second Brain`, and move it somewhere you'll keep it, like `Documents`.
 
 **B. With an online backup:** click **Use this template > Create a new repository**. **Set it to Private.** Your second brain will hold personal things, and a public repo is visible to the whole internet. Then download your copy with the green **Code** button (ZIP), or with git:
 
