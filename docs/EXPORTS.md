@@ -4,6 +4,8 @@ Almost every app you use will give you a copy of your own data for free. This pa
 
 Back to the [README](../README.md) · Previous: [Getting Started](GETTING-STARTED.md) · Next: [Prompts to copy](PROMPTS.md)
 
+<p align="center"><img src="../assets/exports-map.svg" alt="Where to get your data and which raw folder each export goes in." width="100%"></p>
+
 > **Menus move.** Apps rename their settings pages often. If a path below is out of date, open the linked help page or search *"<app> download my data"*. The idea is always the same: **Settings > Privacy (or Data) > Download / Export**.
 
 ---

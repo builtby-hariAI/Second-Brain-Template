@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="exports-map-title exports-map-desc">
+<title id="exports-map-title">Where to get your data</title>
+<desc id="exports-map-desc">Seven kinds of app exports, the raw folder each one goes in, and how long each takes to arrive.</desc>
+<defs>
+  <radialGradient id="exports-map-bg" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#141a2b"/><stop offset="0.75" stop-color="#0b0d14"/></radialGradient>
+  <filter id="exports-map-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="exports-map-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9fb0c8"/></marker>
+  <marker id="exports-map-arrow-c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#00e5ff"/></marker>
+</defs>
+<rect x="1" y="1" width="1198" height="638" rx="16" fill="url(#exports-map-bg)" stroke="#00e5ff" stroke-opacity="0.18"/>
+<text x="40" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#00e5ff" text-anchor="start" letter-spacing="0.14em">WHERE TO GET YOUR DATA</text><text x="40" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#e6f7ff" text-anchor="start" >Every app will give you a copy. Here's where each one lands.</text>
+<text x="40" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#8a93a8" text-anchor="start" letter-spacing="0.12em">SOURCE</text>
+<text x="660" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#8a93a8" text-anchor="start" letter-spacing="0.12em">FILE IT IN</text>
+<text x="990" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#8a93a8" text-anchor="start" letter-spacing="0.12em">WAIT</text>
+<path d="M460,151 H652" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#exports-map-arrow)"/>
+<rect x="40" y="124" width="420" height="54" rx="8" fill="#111726" stroke="#9fb0c8" stroke-opacity="0.3"/>
+<text x="60" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="650" fill="#e6f7ff" text-anchor="start" >AI chats</text>
+<text x="60" y="168" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9fb0c8" text-anchor="start" >ChatGPT · Claude · Gemini</text>
+<rect x="660" y="132" width="300" height="38" rx="6" fill="#111726" stroke="#f72585" stroke-width="1.4"/>
+<rect x="660" y="132" width="5" height="38" rx="2" fill="#f72585"/>
+<text x="680" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#e6f7ff" text-anchor="start" >raw/07 Chats/</text>
+<text x="990" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >minutes to hours</text>
+<path d="M460,219 H652" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#exports-map-arrow)"/>
+<rect x="40" y="192" width="420" height="54" rx="8" fill="#111726" stroke="#9fb0c8" stroke-opacity="0.3"/>
+<text x="60" y="216" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="650" fill="#e6f7ff" text-anchor="start" >Career</text>
+<text x="60" y="236" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9fb0c8" text-anchor="start" >Resume · LinkedIn</text>
+<rect x="660" y="200" width="300" height="38" rx="6" fill="#111726" stroke="#ff6bd6" stroke-width="1.4"/>
+<rect x="660" y="200" width="5" height="38" rx="2" fill="#ff6bd6"/>
+<text x="680" y="224" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#e6f7ff" text-anchor="start" >raw/02 Me/</text>
+<text x="990" y="224" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >minutes to a day</text>
+<path d="M460,287 H652" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#exports-map-arrow)"/>
+<rect x="40" y="260" width="420" height="54" rx="8" fill="#111726" stroke="#9fb0c8" stroke-opacity="0.3"/>
+<text x="60" y="284" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="650" fill="#e6f7ff" text-anchor="start" >Google Takeout</text>
+<text x="60" y="304" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9fb0c8" text-anchor="start" >Calendar · Keep · YouTube</text>
+<rect x="660" y="268" width="300" height="38" rx="6" fill="#111726" stroke="#00e5ff" stroke-width="1.4"/>
+<rect x="660" y="268" width="5" height="38" rx="2" fill="#00e5ff"/>
+<text x="680" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#e6f7ff" text-anchor="start" >raw/01 Timeline/</text>
+<text x="990" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >hours</text>
+<path d="M460,355 H652" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#exports-map-arrow)"/>
+<rect x="40" y="328" width="420" height="54" rx="8" fill="#111726" stroke="#9fb0c8" stroke-opacity="0.3"/>
+<text x="60" y="352" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="650" fill="#e6f7ff" text-anchor="start" >Music &amp; reading</text>
+<text x="60" y="372" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9fb0c8" text-anchor="start" >Spotify · Kindle · Goodreads</text>
+<rect x="660" y="336" width="300" height="38" rx="6" fill="#111726" stroke="#ffd24a" stroke-width="1.4"/>
+<rect x="660" y="336" width="5" height="38" rx="2" fill="#ffd24a"/>
+<text x="680" y="360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#e6f7ff" text-anchor="start" >raw/05 Journals &amp; Trackers/</text>
+<text x="990" y="360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >instant to days</text>
+<path d="M460,423 H652" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#exports-map-arrow)"/>
+<rect x="40" y="396" width="420" height="54" rx="8" fill="#111726" stroke="#9fb0c8" stroke-opacity="0.3"/>
+<text x="60" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="650" fill="#e6f7ff" text-anchor="start" >Old notes apps</text>
+<text x="60" y="440" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9fb0c8" text-anchor="start" >Apple Notes · Notion · Evernote</text>
+<rect x="660" y="404" width="300" height="38" rx="6" fill="#111726" stroke="#8a93a8" stroke-width="1.4"/>
+<rect x="660" y="404" width="5" height="38" rx="2" fill="#8a93a8"/>
+<text x="680" y="428" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#e6f7ff" text-anchor="start" >raw/00 Inbox/</text>
+<text x="990" y="428" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >instant (Importer)</text>
+<path d="M460,491 H652" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#exports-map-arrow)"/>
+<rect x="40" y="464" width="420" height="54" rx="8" fill="#111726" stroke="#9fb0c8" stroke-opacity="0.3"/>
+<text x="60" y="488" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="650" fill="#e6f7ff" text-anchor="start" >Money</text>
+<text x="60" y="508" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9fb0c8" text-anchor="start" >Bank CSVs · brokerage · Amazon</text>
+<rect x="660" y="472" width="300" height="38" rx="6" fill="#111726" stroke="#ff8a4c" stroke-width="1.4"/>
+<rect x="660" y="472" width="5" height="38" rx="2" fill="#ff8a4c"/>
+<text x="680" y="496" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#e6f7ff" text-anchor="start" >raw/private/</text>
+<text x="990" y="496" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >instant</text>
+<path d="M460,559 H652" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#exports-map-arrow)"/>
+<rect x="40" y="532" width="420" height="54" rx="8" fill="#111726" stroke="#9fb0c8" stroke-opacity="0.3"/>
+<text x="60" y="556" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="650" fill="#e6f7ff" text-anchor="start" >Health</text>
+<text x="60" y="576" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="400" fill="#9fb0c8" text-anchor="start" >Apple Health · Strava · Garmin</text>
+<rect x="660" y="540" width="300" height="38" rx="6" fill="#111726" stroke="#ff8a4c" stroke-width="1.4"/>
+<rect x="660" y="540" width="5" height="38" rx="2" fill="#ff8a4c"/>
+<text x="680" y="564" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#e6f7ff" text-anchor="start" >raw/private/</text>
+<text x="990" y="564" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >instant to a day</text>
+<text x="40" y="618" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#ff8a4c" text-anchor="start" >Orange = private. It stays in raw/private/, which never goes to GitHub.</text>
+</svg>

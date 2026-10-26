@@ -1,5 +1,7 @@
 # Second Brain Template
 
+<p align="center"><img src="assets/hero.svg" alt="Second Brain Template: your notes, filed by AI. The link graph of the sample vault." width="100%"></p>
+
 **A notes vault that an AI keeps organised for you.** Drop in your stuff (PDFs, old chats, your resume, app exports), and the AI turns it into linked notes. Later, ask questions like *"what did I decide about my car loan?"* and get answers that point back to your own notes.
 
 Built on [Obsidian](https://obsidian.md) (free notes app) and [Claude Code](https://code.claude.com/docs/en/quickstart) (AI assistant). **No coding needed.** If you've never set anything like this up, it makes a great first project.
@@ -19,6 +21,8 @@ Built by **Hari** ([builtby-hari](https://github.com/builtby-hari)). Copy it, ma
 | Copy-paste prompts for every task | **[Prompts to Copy](docs/PROMPTS.md)** |
 | Fix a problem or get a question answered | **[FAQ and Troubleshooting](docs/FAQ.md)** |
 | Just steal ideas for your own vault | [What's inside](#whats-inside) and [Ideas worth copying](#ideas-worth-copying) below |
+
+<p align="center"><img src="assets/setup-roadmap.svg" alt="Setup roadmap: install Obsidian, get the template, install Claude Code, clear the sample notes, ingest your first file, answer Brain Questions. About 30 minutes." width="100%"></p>
 
 ## Quick start (if you've done this before)
 
@@ -40,22 +44,24 @@ Built by **Hari** ([builtby-hari](https://github.com/builtby-hari)). Copy it, ma
 
 ## How it works
 
-```mermaid
-flowchart LR
-    S[Your stuff: PDFs, exports, chats] --> R[raw/ originals, never changed]
-    R -->|ingest| W[wiki/ notes the AI writes]
-    W --> I[index.md catalog]
-    W --> L[log.md history]
-    Q[Your question] -->|query| I --> A[Answer with links to your notes]
-    A -.->|worth keeping| W
-```
+<p align="center"><img src="assets/how-it-works.svg" alt="How it works: your stuff goes into raw/, Claude ingests it into wiki/ notes, and answers your questions with links to those notes." width="100%"></p>
 
 1. **Ingest:** a source goes into `raw/`. Claude writes a summary note, updates every person, place, project and idea it mentions, rebuilds the index and logs what changed.
 2. **Query:** Claude reads `index.md`, finds the right notes and answers with `[[links]]`. Anything it can't find is marked **UNKNOWN** instead of guessed.
 3. **Lint:** now and then Claude checks for contradictions, stale facts, orphan notes and broken links, and fixes what's safe.
 4. **Brain Questions:** Claude keeps a list of things it wants to know about you. Answer a few in `wiki/Brain Questions.md`, run `/answered`, and it fills in the vault.
 
+<p align="center"><img src="assets/brain-questions-loop.svg" alt="Brain Questions loop: Claude asks, you answer, run /answered, notes fill in, then Claude finds the next gaps." width="100%"></p>
+
+## Where your data comes from
+
+Most apps let you download everything they have on you. The [exports guide](docs/EXPORTS.md) has the exact clicks for about 30 of them.
+
+<p align="center"><img src="assets/exports-map.svg" alt="Where to get your data: AI chats, career, Google Takeout, music and reading, old notes apps, money and health, and the raw folder each goes in." width="100%"></p>
+
 ## What's inside
+
+<p align="center"><img src="assets/folder-map.svg" alt="Folder map: the eleven wiki folders and raw/, each with what goes in it, in the colours Obsidian shows." width="100%"></p>
 
 | Piece | What it does |
 |---|---|

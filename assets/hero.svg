@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="hero-title hero-desc">
+<title id="hero-title">Second Brain Template</title>
+<desc id="hero-desc">Title banner beside the real link graph of the template's sample notes, coloured by folder.</desc>
+<defs>
+  <radialGradient id="hero-bg" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#141a2b"/><stop offset="0.75" stop-color="#0b0d14"/></radialGradient>
+  <filter id="hero-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="hero-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9fb0c8"/></marker>
+  <marker id="hero-arrow-c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#00e5ff"/></marker>
+</defs>
+<rect x="1" y="1" width="1198" height="418" rx="16" fill="url(#hero-bg)" stroke="#00e5ff" stroke-opacity="0.18"/>
+<line x1="871.4" y1="248.1" x2="957.6" y2="275.9" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="871.4" y1="248.1" x2="905.9" y2="185.3" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="871.4" y1="248.1" x2="789.0" y2="323.2" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="871.4" y1="248.1" x2="915.5" y2="321.0" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="871.4" y1="248.1" x2="1019.7" y2="174.0" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="871.4" y1="248.1" x2="983.9" y2="227.9" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="871.4" y1="248.1" x2="747.6" y2="208.6" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="1045.2" y1="350.0" x2="957.6" y2="275.9" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="1045.2" y1="350.0" x2="1120.0" y2="283.3" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="1045.2" y1="350.0" x2="915.5" y2="321.0" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="957.6" y1="275.9" x2="1100.2" y2="230.0" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="957.6" y1="275.9" x2="905.9" y2="185.3" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="957.6" y1="275.9" x2="789.0" y2="323.2" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="957.6" y1="275.9" x2="983.9" y2="227.9" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="700.0" y1="111.3" x2="905.9" y2="185.3" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="1100.2" y1="230.0" x2="1120.0" y2="283.3" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="1100.2" y1="230.0" x2="1019.7" y2="174.0" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="1100.2" y1="230.0" x2="983.9" y2="227.9" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="1011.7" y1="60.7" x2="905.9" y2="185.3" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="1120.0" y1="283.3" x2="905.9" y2="185.3" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="905.9" y1="185.3" x2="915.5" y2="321.0" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="905.9" y1="185.3" x2="840.9" y2="60.0" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="905.9" y1="185.3" x2="1019.7" y2="174.0" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="905.9" y1="185.3" x2="983.9" y2="227.9" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<line x1="905.9" y1="185.3" x2="747.6" y2="208.6" stroke="#8ca0d2" stroke-opacity="0.28" stroke-width="1.4"/>
+<circle cx="871.4" cy="248.1" r="14.8" fill="#00e5ff" filter="url(#hero-glow)"/>
+<text x="871.4" y="277.9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >2026-10 October</text>
+<circle cx="1045.2" cy="350.0" r="9.2" fill="#a78bfa" filter="url(#hero-glow)"/>
+<text x="1045.2" y="374.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Acme Corp</text>
+<circle cx="957.6" cy="275.9" r="13.4" fill="#ff6bd6" filter="url(#hero-glow)"/>
+<text x="957.6" y="304.3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Alex Rivera - Profile</text>
+<circle cx="700.0" cy="111.3" r="6.4" fill="#00e5ff" filter="url(#hero-glow)"/>
+<text x="700.0" y="132.7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Brain Questions</text>
+<circle cx="1100.2" cy="230.0" r="10.6" fill="#a78bfa" filter="url(#hero-glow)"/>
+<text x="1100.2" y="255.6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Compound Interest</text>
+<circle cx="1011.7" cy="60.7" r="6.4" fill="#00e5ff" filter="url(#hero-glow)"/>
+<text x="1011.7" y="82.1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Diagrams</text>
+<circle cx="1120.0" cy="283.3" r="9.2" fill="#7cff8a" filter="url(#hero-glow)"/>
+<text x="1120.0" y="307.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Finance Hub</text>
+<circle cx="905.9" cy="185.3" r="19.0" fill="#00e5ff" filter="url(#hero-glow)"/>
+<text x="905.9" y="219.3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Home</text>
+<circle cx="789.0" cy="323.2" r="7.8" fill="#ff6bd6" filter="url(#hero-glow)"/>
+<text x="789.0" y="346.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Jordan Lee</text>
+<circle cx="915.5" cy="321.0" r="9.2" fill="#00e5ff" filter="url(#hero-glow)"/>
+<text x="915.5" y="345.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Life Timeline</text>
+<circle cx="840.9" cy="60.0" r="6.4" fill="#4cc9f0" filter="url(#hero-glow)"/>
+<text x="840.9" y="81.4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Note Template</text>
+<circle cx="1019.7" cy="174.0" r="9.2" fill="#f72585" filter="url(#hero-glow)"/>
+<text x="1019.7" y="198.2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Sample Chat Summary</text>
+<circle cx="983.9" cy="227.9" r="10.6" fill="#ff8a4c" filter="url(#hero-glow)"/>
+<text x="983.9" y="253.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Sample Project</text>
+<circle cx="747.6" cy="208.6" r="7.8" fill="#ffd24a" filter="url(#hero-glow)"/>
+<text x="747.6" y="231.4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#c9d3ea" text-anchor="middle" >Workout Log</text>
+<text x="60" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" fill="#00e5ff" text-anchor="start" letter-spacing="0.16em">SECOND BRAIN TEMPLATE</text>
+<text x="60" y="178" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="750" fill="#e6f7ff" text-anchor="start" >Your notes,</text>
+<text x="60" y="236" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="750" fill="#00e5ff" text-anchor="start" filter="url(#hero-glow)">filed by AI.</text>
+<text x="60" y="284" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#9fb0c8" text-anchor="start" >Drop in your life. Ask questions. Get answers</text>
+<text x="60" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#9fb0c8" text-anchor="start" >that link back to your own notes.</text>
+<rect x="60" y="336" width="440" height="34" rx="6" fill="#0d111c" stroke="#00e5ff" stroke-opacity="0.3"/>
+<text x="80" y="358" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="500" fill="#e6f7ff" text-anchor="start" >Obsidian + Claude Code · free · no coding</text>
+</svg>

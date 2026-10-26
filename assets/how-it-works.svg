@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="how-it-works-title how-it-works-desc">
+<title id="how-it-works-title">How the second brain works</title>
+<desc id="how-it-works-desc">Your files go into raw/, Claude ingests them into linked wiki notes, and answers your questions with links to those notes.</desc>
+<defs>
+  <radialGradient id="how-it-works-bg" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#141a2b"/><stop offset="0.75" stop-color="#0b0d14"/></radialGradient>
+  <filter id="how-it-works-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="how-it-works-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9fb0c8"/></marker>
+  <marker id="how-it-works-arrow-c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#00e5ff"/></marker>
+</defs>
+<rect x="1" y="1" width="1198" height="518" rx="16" fill="url(#how-it-works-bg)" stroke="#00e5ff" stroke-opacity="0.18"/>
+<text x="40" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#00e5ff" text-anchor="start" letter-spacing="0.14em">HOW IT WORKS</text><text x="40" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#e6f7ff" text-anchor="start" >You drop things in. The AI files them. You ask, it answers.</text>
+<path d="M254,176 H326" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#how-it-works-arrow)"/>
+<path d="M544,176 H616" fill="none" stroke="#00e5ff" stroke-width="1.8" marker-end="url(#how-it-works-arrow-c)"/>
+<path d="M834,176 H906" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#how-it-works-arrow)"/>
+<rect x="262.9" y="141" width="58.2" height="20" rx="3" fill="#0d111c"/><text x="292.0" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" fill="#9fb0c8" text-anchor="middle" letter-spacing="0.04em">DROP IN</text>
+<rect x="556.2" y="141" width="51.6" height="20" rx="3" fill="#0d111c"/><text x="582.0" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" fill="#00e5ff" text-anchor="middle" letter-spacing="0.04em">INGEST</text>
+<rect x="846.2" y="141" width="51.6" height="20" rx="3" fill="#0d111c"/><text x="872.0" y="156" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="600" fill="#9fb0c8" text-anchor="middle" letter-spacing="0.04em">WRITES</text>
+<path d="M727.0,370 V238" fill="none" stroke="#00e5ff" stroke-width="1.8" marker-end="url(#how-it-works-arrow-c)"/>
+<rect x="743.615" y="291" width="34.769999999999996" height="20" rx="3" fill="#0d111c"/><text x="761.0" y="306" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#9fb0c8" text-anchor="middle" letter-spacing="0.04em">ASK</text>
+<path d="M1017.0,234 V366" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#how-it-works-arrow)"/>
+<rect x="1031.255" y="291" width="95.49000000000001" height="20" rx="3" fill="#0d111c"/><text x="1079.0" y="306" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#9fb0c8" text-anchor="middle" letter-spacing="0.04em">CITES NOTES</text>
+<rect x="40" y="110" width="214" height="124" rx="10" fill="#111726" stroke="#ffd24a" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="40" y="110" width="214" height="4" rx="2" fill="#ffd24a"/>
+<text x="60" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="650" fill="#e6f7ff" text-anchor="start" >Your stuff</text>
+<text x="60" y="174" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >PDFs, resume</text>
+<text x="60" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >exports, chats</text>
+<rect x="330" y="110" width="214" height="124" rx="10" fill="#111726" stroke="#8a93a8" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="330" y="110" width="214" height="4" rx="2" fill="#8a93a8"/>
+<text x="350" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="650" fill="#e6f7ff" text-anchor="start" >raw/</text>
+<text x="350" y="174" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >originals</text>
+<text x="350" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >never changed</text>
+<rect x="620" y="110" width="214" height="124" rx="10" fill="#111726" stroke="#00e5ff" stroke-opacity="0.9" stroke-width="2" filter="url(#how-it-works-glow)"/>
+<rect x="620" y="110" width="214" height="4" rx="2" fill="#00e5ff"/>
+<text x="640" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="650" fill="#e6f7ff" text-anchor="start" >Claude</text>
+<text x="640" y="174" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >follows the</text>
+<text x="640" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >CLAUDE.md rules</text>
+<rect x="910" y="110" width="214" height="124" rx="10" fill="#111726" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="910" y="110" width="214" height="4" rx="2" fill="#a78bfa"/>
+<text x="930" y="148" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="650" fill="#e6f7ff" text-anchor="start" >wiki/</text>
+<text x="930" y="174" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >linked notes,</text>
+<text x="930" y="196" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >index.md, log.md</text>
+<rect x="620" y="370" width="214" height="110" rx="10" fill="#111726" stroke="#ff6bd6" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="620" y="370" width="214" height="4" rx="2" fill="#ff6bd6"/>
+<text x="640" y="408" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="650" fill="#e6f7ff" text-anchor="start" >Your question</text>
+<text x="640" y="434" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >“what did I</text>
+<text x="640" y="456" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >decide about...?”</text>
+<rect x="910" y="370" width="214" height="110" rx="10" fill="#111726" stroke="#7cff8a" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="910" y="370" width="214" height="4" rx="2" fill="#7cff8a"/>
+<text x="930" y="408" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="650" fill="#e6f7ff" text-anchor="start" >Answer</text>
+<text x="930" y="434" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >with [[links]] to</text>
+<text x="930" y="456" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >your own notes</text>
+<text x="40" y="400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="650" fill="#e6f7ff" text-anchor="start" >Three habits keep it healthy:</text>
+<text x="40" y="430" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#00e5ff" text-anchor="start" >1</text>
+<text x="64" y="430" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#e6f7ff" text-anchor="start" >Ingest</text>
+<text x="140" y="430" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="400" fill="#9fb0c8" text-anchor="start" >new sources</text>
+<text x="40" y="454" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#00e5ff" text-anchor="start" >2</text>
+<text x="64" y="454" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#e6f7ff" text-anchor="start" >Query</text>
+<text x="140" y="454" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="400" fill="#9fb0c8" text-anchor="start" >ask anything</text>
+<text x="40" y="478" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#00e5ff" text-anchor="start" >3</text>
+<text x="64" y="478" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="600" fill="#e6f7ff" text-anchor="start" >Lint</text>
+<text x="140" y="478" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="400" fill="#9fb0c8" text-anchor="start" >weekly tidy-up</text>
+</svg>

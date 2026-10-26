@@ -4,6 +4,8 @@ This guide assumes you have **never** used a terminal, GitHub or Obsidian. Follo
 
 Back to the [README](../README.md) · Next: [Where to get your data](EXPORTS.md)
 
+<p align="center"><img src="../assets/setup-roadmap.svg" alt="Setup roadmap: six steps, about 30 minutes." width="100%"></p>
+
 ---
 
 ## What you are building, in plain words
@@ -130,6 +132,8 @@ Watch the new note appear in Obsidian. That's the whole loop.
 ## Step 10. Let Claude interview you (10 min, any time)
 
 Open `wiki/Brain Questions.md`, answer whatever you like, skip the rest, then type `/answered` in Claude. It files your answers into the right notes and writes the next batch of questions. This is the fastest way to fill a brand-new brain.
+
+<p align="center"><img src="../assets/brain-questions-loop.svg" alt="Brain Questions loop." width="100%"></p>
 
 ## Step 11 (optional). Search your brain as a graph
 

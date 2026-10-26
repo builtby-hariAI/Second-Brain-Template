@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="brain-questions-loop-title brain-questions-loop-desc">
+<title id="brain-questions-loop-title">Brain Questions loop</title>
+<desc id="brain-questions-loop-desc">Claude writes questions, you answer, you run /answered, notes fill in, and Claude writes the next questions.</desc>
+<defs>
+  <radialGradient id="brain-questions-loop-bg" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#141a2b"/><stop offset="0.75" stop-color="#0b0d14"/></radialGradient>
+  <filter id="brain-questions-loop-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <marker id="brain-questions-loop-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9fb0c8"/></marker>
+  <marker id="brain-questions-loop-arrow-c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#00e5ff"/></marker>
+</defs>
+<rect x="1" y="1" width="1198" height="328" rx="16" fill="url(#brain-questions-loop-bg)" stroke="#00e5ff" stroke-opacity="0.18"/>
+<text x="40" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="600" fill="#00e5ff" text-anchor="start" letter-spacing="0.14em">THE FASTEST WAY TO FILL A NEW BRAIN</text><text x="40" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#e6f7ff" text-anchor="start" >Brain Questions: Claude interviews you, a few questions at a time</text>
+<path d="M290,162 H326" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#brain-questions-loop-arrow)"/>
+<path d="M580,162 H616" fill="none" stroke="#00e5ff" stroke-width="1.8" marker-end="url(#brain-questions-loop-arrow-c)"/>
+<path d="M870,162 H906" fill="none" stroke="#9fb0c8" stroke-width="1.8" marker-end="url(#brain-questions-loop-arrow)"/>
+<path d="M1035,226 V282 Q1035,290 1027,290 H173 Q165,290 165,282 V230" fill="none" stroke="#9fb0c8" stroke-width="1.8" stroke-dasharray="5,4" marker-end="url(#brain-questions-loop-arrow)"/>
+<rect x="521.895" y="299" width="156.21" height="20" rx="3" fill="#0d111c"/><text x="600" y="314" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5" font-weight="600" fill="#9fb0c8" text-anchor="middle" letter-spacing="0.04em">FINDS THE NEXT GAPS</text>
+<rect x="40" y="100" width="250" height="126" rx="10" fill="#111726" stroke="#a78bfa" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="40" y="100" width="250" height="4" rx="2" fill="#a78bfa"/>
+<text x="60" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="650" fill="#e6f7ff" text-anchor="start" >Claude asks</text>
+<text x="60" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >writes questions in</text>
+<text x="60" y="186" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >Brain Questions.md</text>
+<rect x="330" y="100" width="250" height="126" rx="10" fill="#111726" stroke="#ff6bd6" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="330" y="100" width="250" height="4" rx="2" fill="#ff6bd6"/>
+<text x="350" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="650" fill="#e6f7ff" text-anchor="start" >You answer</text>
+<text x="350" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >type after A::</text>
+<text x="350" y="186" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >skip what you like</text>
+<rect x="620" y="100" width="250" height="126" rx="10" fill="#111726" stroke="#00e5ff" stroke-opacity="0.9" stroke-width="2" filter="url(#brain-questions-loop-glow)"/>
+<rect x="620" y="100" width="250" height="4" rx="2" fill="#00e5ff"/>
+<text x="640" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="650" fill="#e6f7ff" text-anchor="start" >Run /answered</text>
+<text x="640" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >one command</text>
+<text x="640" y="186" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >in Claude Code</text>
+<rect x="910" y="100" width="250" height="126" rx="10" fill="#111726" stroke="#7cff8a" stroke-opacity="0.55" stroke-width="1.2"/>
+<rect x="910" y="100" width="250" height="4" rx="2" fill="#7cff8a"/>
+<text x="930" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="650" fill="#e6f7ff" text-anchor="start" >Notes fill in</text>
+<text x="930" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >profile, timeline,</text>
+<text x="930" y="186" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" fill="#9fb0c8" text-anchor="start" >people, projects</text>
+</svg>
