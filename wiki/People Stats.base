@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.inFolder("wiki/02 Me/People")
+views:
+  - type: table
+    name: Everyone
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.name
+        direction: ASC

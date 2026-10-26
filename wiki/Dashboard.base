@@ -1,0 +1,89 @@
+filters:
+  and:
+    - file.ext == "md"
+    - '!file.inFolder("wiki/99 Archive")'
+    - '!file.inFolder("wiki/00 Inbox")'
+views:
+  - type: table
+    name: Recently changed
+    filters:
+      and:
+        - file.mtime > now() - "7 days"
+        - '!file.inFolder("wiki/07 Chats")'
+    order:
+      - file.name
+      - file.folder
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 30
+  - type: table
+    name: Projects
+    filters:
+      and:
+        - file.inFolder("wiki/04 Projects")
+    order:
+      - file.name
+      - file.mtime
+      - file.size
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: People
+    filters:
+      and:
+        - file.inFolder("wiki/02 Me/People")
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Places
+    filters:
+      and:
+        - file.inFolder("wiki/03 Knowledge/Places")
+    order:
+      - file.name
+      - file.mtime
+  - type: table
+    name: Trackers
+    filters:
+      and:
+        - file.inFolder("wiki/05 Journals & Trackers")
+        - '!file.inFolder("wiki/05 Journals & Trackers/Health")'
+    order:
+      - file.name
+      - file.folder
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: Health
+    filters:
+      and:
+        - file.inFolder("wiki/05 Journals & Trackers/Health")
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.name
+        direction: DESC
+  - type: table
+    name: Thin notes
+    filters:
+      and:
+        - file.size < 800
+        - '!file.inFolder("wiki/07 Chats")'
+        - '!file.inFolder("wiki/Knowledge Base")'
+    order:
+      - file.name
+      - file.folder
+      - file.size
+    sort:
+      - property: file.size
+        direction: ASC

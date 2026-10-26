@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "-path:\"99 Archive\" -path:\"00 Inbox\" -file:\"index\" -path:\"raw/\"",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"wiki/entities\"",
+      "color": {
+        "a": 1,
+        "rgb": 16765514
+      }
+    },
+    {
+      "query": "path:\"wiki/concepts\"",
+      "color": {
+        "a": 1,
+        "rgb": 10980346
+      }
+    },
+    {
+      "query": "path:\"wiki/02 Me\"",
+      "color": {
+        "a": 1,
+        "rgb": 16740277
+      }
+    },
+    {
+      "query": "path:\"wiki/04 Projects\"",
+      "color": {
+        "a": 1,
+        "rgb": 16747084
+      }
+    },
+    {
+      "query": "path:\"wiki/03 Knowledge\"",
+      "color": {
+        "a": 1,
+        "rgb": 3073737
+      }
+    },
+    {
+      "query": "path:\"wiki/01 Timeline\"",
+      "color": {
+        "a": 1,
+        "rgb": 58879
+      }
+    },
+    {
+      "query": "file:\"Home\" OR file:\"Diagrams\" OR file:\"index\"",
+      "color": {
+        "a": 1,
+        "rgb": 58879
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -1.2,
+  "nodeSizeMultiplier": 1.3,
+  "lineSizeMultiplier": 0.5,
+  "collapse-forces": false,
+  "centerStrength": 0.413985701519214,
+  "repelStrength": 8.07864164432529,
+  "linkStrength": 0.9,
+  "linkDistance": 500,
+  "scale": 1.0236756363385895,
+  "close": false
+}

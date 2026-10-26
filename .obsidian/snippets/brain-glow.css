@@ -1,0 +1,15 @@
+/* Dark glowing graph for the Second Brain vault */
+.theme-dark {
+  --background-primary: #0b0d14;
+  --background-secondary: #0f121b;
+  --graph-node: #6f7a8f;
+  --graph-node-unresolved: #3a4050;
+  --graph-node-focused: #ffffff;
+  --graph-line: rgba(140, 160, 210, 0.16);
+  --graph-text: #c9d3ea;
+}
+.workspace-leaf-content[data-type="graph"] .view-content,
+.workspace-leaf-content[data-type="localgraph"] .view-content {
+  background: radial-gradient(ellipse at center, #141a2b 0%, #0b0d14 70%);
+}
+.workspace-leaf-content[data-type="graph"] canvas { filter: drop-shadow(0 0 6px rgba(0, 229, 255, 0.35)) saturate(1.25); }

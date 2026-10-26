@@ -1,0 +1,6 @@
+{
+  "types": {
+    "tier": "text",
+    "month": "text"
+  }
+}

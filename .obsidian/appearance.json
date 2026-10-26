@@ -1,0 +1,9 @@
+{
+  "theme": "obsidian",
+  "accentColor": "#00e5ff",
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "brain-colors",
+    "brain-glow"
+  ]
+}

@@ -1,0 +1,53 @@
+/* One blue color scheme for the whole Second Brain: folders, headings, text accents, callouts, charts, canvases */
+body {
+  --c-accent: #00e5ff;      /* main: H1, H2, links, folder rails */
+  --c-accent-soft: #7fdfff; /* lighter: H3, secondary text */
+  --c-accent-deep: #3a7bd5; /* darker: borders, H4+ */
+  --c-muted: #8a93a8;       /* raw sources and archive */
+}
+
+/* File explorer: each top-level folder keeps its own color (only page text stays one color) */
+.nav-folder-title[data-path^="wiki/"]                 { --f: var(--c-accent); }
+.nav-folder-title[data-path^="wiki/01 Timeline"]      { --f: #00e5ff; }
+.nav-folder-title[data-path^="wiki/02 Me"]            { --f: #ff6bd6; }
+.nav-folder-title[data-path^="wiki/03 Knowledge"]     { --f: #7cff8a; }
+.nav-folder-title[data-path^="wiki/04 Projects"]      { --f: #ff8a4c; }
+.nav-folder-title[data-path^="wiki/05 Journals"]      { --f: #ffd24a; }
+.nav-folder-title[data-path^="wiki/06 Library"]       { --f: #4cc9f0; }
+.nav-folder-title[data-path^="wiki/07 Chats"]         { --f: #f72585; }
+.nav-folder-title[data-path^="wiki/entities"],
+.nav-folder-title[data-path^="wiki/concepts"]         { --f: #a78bfa; }
+.nav-folder-title[data-path^="wiki/00 Inbox"],
+.nav-folder-title[data-path^="wiki/99 Archive"],
+.nav-folder-title[data-path^="raw"]                   { --f: var(--c-muted); }
+.nav-folder-title[data-path^="wiki/"], .nav-folder-title[data-path^="raw"] {
+  color: var(--f, inherit);
+  border-left: 2px solid color-mix(in srgb, var(--f, transparent) 70%, transparent);
+  text-shadow: 0 0 8px color-mix(in srgb, var(--f, transparent) 35%, transparent);
+}
+.nav-folder-title[data-path="wiki"], .nav-folder-title[data-path="raw"] { font-weight: 700; letter-spacing: .04em; }
+.nav-folder-title[data-path="raw"] { opacity: .7; }
+
+/* Headings: same blue family from title down */
+.markdown-rendered h1, .cm-header-1 { color: var(--c-accent); text-shadow: 0 0 12px rgba(0, 229, 255, .3); }
+.markdown-rendered h2, .cm-header-2 { color: var(--c-accent); border-bottom: 1px solid rgba(0, 229, 255, .25); }
+.markdown-rendered h3, .cm-header-3 { color: var(--c-accent-soft); }
+.markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6,
+.cm-header-4, .cm-header-5, .cm-header-6 { color: var(--c-accent-deep); }
+.markdown-rendered strong, .cm-strong { color: var(--c-accent-soft); }
+body { --link-color: var(--c-accent); --link-external-color: var(--c-accent-soft); --text-accent: var(--c-accent); }
+
+/* Callouts: all in the blue family */
+.callout { --callout-color: 0, 229, 255; box-shadow: 0 0 14px rgba(var(--callout-color), .18); border-radius: 10px; }
+.callout[data-callout="warning"], .callout[data-callout="danger"] { --callout-color: 127, 223, 255; }
+.callout[data-callout="note"], .callout[data-callout="quote"] { --callout-color: 58, 123, 213; }
+
+/* Mermaid charts: card look */
+.markdown-rendered .mermaid {
+  background: radial-gradient(ellipse at top, #141a2b, #0b0d14 75%);
+  border: 1px solid rgba(0, 229, 255, .18); border-radius: 12px; padding: 12px;
+}
+
+/* Canvas: glowing cards and edges */
+.canvas-node-container { box-shadow: 0 0 18px rgba(0, 229, 255, .22); border-radius: 12px; }
+.canvas-node-group .canvas-node-label { font-weight: 700; letter-spacing: .03em; }

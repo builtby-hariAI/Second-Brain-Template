@@ -1,0 +1,260 @@
+{
+	"nodes": [
+		{
+			"id": "n1",
+			"type": "text",
+			"x": -260,
+			"y": -120,
+			"width": 520,
+			"height": 240,
+			"text": "# Second Brain\nraw/ sources -> wiki/ notes -> index, log, map\n\n[[Home]] / [[Diagrams]] / [[index]]",
+			"color": "#00e5ff"
+		},
+		{
+			"id": "n2",
+			"type": "group",
+			"x": -1300,
+			"y": -1150,
+			"width": 1060,
+			"height": 570,
+			"label": "02 Me",
+			"color": "#4cc9f0"
+		},
+		{
+			"id": "n3",
+			"type": "file",
+			"x": -1260,
+			"y": -1090,
+			"width": 460,
+			"height": 220,
+			"file": "wiki/02 Me/Alex Rivera - Profile.md",
+			"color": "#4cc9f0"
+		},
+		{
+			"id": "n4",
+			"type": "file",
+			"x": -760,
+			"y": -1090,
+			"width": 460,
+			"height": 220,
+			"file": "wiki/02 Me/People/Jordan Lee.md",
+			"color": "#4cc9f0"
+		},
+		{
+			"id": "n6",
+			"type": "group",
+			"x": -200,
+			"y": -1150,
+			"width": 1060,
+			"height": 570,
+			"label": "04 Projects",
+			"color": "#3a7bd5"
+		},
+		{
+			"id": "n7",
+			"type": "file",
+			"x": -160,
+			"y": -1090,
+			"width": 460,
+			"height": 220,
+			"file": "wiki/04 Projects/Sample Project.md",
+			"color": "#3a7bd5"
+		},
+		{
+			"id": "n9",
+			"type": "group",
+			"x": 900,
+			"y": -1150,
+			"width": 1060,
+			"height": 570,
+			"label": "03 Knowledge",
+			"color": "#5b9cf5"
+		},
+		{
+			"id": "n10",
+			"type": "file",
+			"x": 940,
+			"y": -1090,
+			"width": 460,
+			"height": 220,
+			"file": "wiki/03 Knowledge/Finance Hub.md",
+			"color": "#5b9cf5"
+		},
+		{
+			"id": "n12",
+			"type": "group",
+			"x": 900,
+			"y": 250,
+			"width": 1060,
+			"height": 570,
+			"label": "Concepts",
+			"color": "#7fdfff"
+		},
+		{
+			"id": "n13",
+			"type": "file",
+			"x": 940,
+			"y": 310,
+			"width": 460,
+			"height": 220,
+			"file": "wiki/concepts/Compound Interest.md",
+			"color": "#7fdfff"
+		},
+		{
+			"id": "n15",
+			"type": "group",
+			"x": 900,
+			"y": 1650,
+			"width": 1060,
+			"height": 570,
+			"label": "Entities",
+			"color": "#5b9cf5"
+		},
+		{
+			"id": "n16",
+			"type": "file",
+			"x": 940,
+			"y": 1710,
+			"width": 460,
+			"height": 220,
+			"file": "wiki/entities/Acme Corp.md",
+			"color": "#5b9cf5"
+		},
+		{
+			"id": "n18",
+			"type": "group",
+			"x": -200,
+			"y": 1650,
+			"width": 1060,
+			"height": 570,
+			"label": "05 Journals & Trackers",
+			"color": "#7fdfff"
+		},
+		{
+			"id": "n19",
+			"type": "file",
+			"x": -160,
+			"y": 1710,
+			"width": 460,
+			"height": 220,
+			"file": "wiki/05 Journals & Trackers/Workout Log.md",
+			"color": "#7fdfff"
+		},
+		{
+			"id": "n21",
+			"type": "group",
+			"x": -1300,
+			"y": 1650,
+			"width": 1060,
+			"height": 570,
+			"label": "01 Timeline",
+			"color": "#00e5ff"
+		},
+		{
+			"id": "n22",
+			"type": "file",
+			"x": -1260,
+			"y": 1710,
+			"width": 460,
+			"height": 220,
+			"file": "wiki/01 Timeline/Life Timeline.md",
+			"color": "#00e5ff"
+		},
+		{
+			"id": "n23",
+			"type": "file",
+			"x": -760,
+			"y": 1710,
+			"width": 460,
+			"height": 220,
+			"file": "wiki/01 Timeline/2026-10 October.md",
+			"color": "#00e5ff"
+		},
+		{
+			"id": "n25",
+			"type": "group",
+			"x": -1300,
+			"y": 250,
+			"width": 1060,
+			"height": 570,
+			"label": "07 Chats",
+			"color": "#4cc9f0"
+		},
+		{
+			"id": "n26",
+			"type": "file",
+			"x": -1260,
+			"y": 310,
+			"width": 460,
+			"height": 220,
+			"file": "wiki/07 Chats/AI & Tech/Sample Chat Summary.md",
+			"color": "#4cc9f0"
+		}
+	],
+	"edges": [
+		{
+			"id": "e5",
+			"fromNode": "n3",
+			"fromSide": "bottom",
+			"toNode": "n1",
+			"toSide": "top",
+			"color": "#4cc9f0"
+		},
+		{
+			"id": "e8",
+			"fromNode": "n7",
+			"fromSide": "bottom",
+			"toNode": "n1",
+			"toSide": "top",
+			"color": "#3a7bd5"
+		},
+		{
+			"id": "e11",
+			"fromNode": "n10",
+			"fromSide": "bottom",
+			"toNode": "n1",
+			"toSide": "top",
+			"color": "#5b9cf5"
+		},
+		{
+			"id": "e14",
+			"fromNode": "n1",
+			"fromSide": "top",
+			"toNode": "n13",
+			"toSide": "bottom",
+			"color": "#7fdfff"
+		},
+		{
+			"id": "e17",
+			"fromNode": "n1",
+			"fromSide": "top",
+			"toNode": "n16",
+			"toSide": "bottom",
+			"color": "#5b9cf5"
+		},
+		{
+			"id": "e20",
+			"fromNode": "n1",
+			"fromSide": "top",
+			"toNode": "n19",
+			"toSide": "bottom",
+			"color": "#7fdfff"
+		},
+		{
+			"id": "e24",
+			"fromNode": "n1",
+			"fromSide": "top",
+			"toNode": "n22",
+			"toSide": "bottom",
+			"color": "#00e5ff"
+		},
+		{
+			"id": "e27",
+			"fromNode": "n1",
+			"fromSide": "top",
+			"toNode": "n26",
+			"toSide": "bottom",
+			"color": "#4cc9f0"
+		}
+	]
+}
